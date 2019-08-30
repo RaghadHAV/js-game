@@ -1,5 +1,12 @@
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 input{
-    border: 2px solid#4CAF50;
+    border: 2px solid#451c5e;
     border-radius: 4px;
 
   padding: 12px 20px;
@@ -8,22 +15,67 @@ input{
 }
 input[type=button], input[type=submit], input[type=reset]
 {
-    background-color: #4CAF50;
+    background-color: #451c5e;
     border: none;
     color: white;
     margin: 4px 2px;
   cursor: pointer;
 }
+.btn
+{
+  background-color: #451c5e;
+  border: none;
+  color: white;
+  margin: 4px 2px;
+cursor: pointer;
+}
 body {
     background-color: white;
   }
-  .container {
-    border: 3px solid #73AD21;
-    background-color: #f2f2f2;
-    padding: 20px;
-    width: 500px;
-    margin: auto;
-  }
   #data{
-      color: red;
+      color: rgb(230, 17, 205);
   }
+
+  .card{
+    width: 300px;
+    height:250px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+  }
+  .bg-cc {
+    background-image: url("img/1.png");
+  
+  }
+.card:hover {
+  transform: scale(1.10) translateZ(0);
+}
+
+.card-title{
+  text-align: center !important;
+  color:  white;
+  font-weight: bold;
+}
+.card-header{
+  color:  white;
+  text-align: center;
+  font-weight: bold;
+  background-color:#DB85BA !important;
+}
+.card-text{
+  color:white;
+  font-weight: bold;
+}
+.card-img{
+  width: 150px;
+  height:200px;
+  opacity: 0.5;
+  
+}
+.shadow{
+  background-color: #451c5e;
+}
+canvas{
+  background:lightblue; display: block; margin: 0 auto;
+}
